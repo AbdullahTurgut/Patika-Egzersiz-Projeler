@@ -1,4 +1,4 @@
-# Not-Ortalamasi-Java
+# Patika-Egzersiz-Projeler
 www.patika.dev 
 
 
