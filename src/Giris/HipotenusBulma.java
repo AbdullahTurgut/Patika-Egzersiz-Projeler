@@ -28,6 +28,7 @@ public class HipotenusBulma {
         System.out.println("Üçgenin çevresi -> " + ucgeninCevresi);
         System.out.println("Üçgenin alanı -> " + ucgeninAlani);
 
+        scanner.close();
 
 
 

@@ -27,6 +27,8 @@ public class Main {
         System.out.println("KDV oranı: " + kdvOran);
         System.out.println("KDV tutarı: " + kdvTutar);
         System.out.println("KDV'li tutarı: " + kdvliTutar);
+
+        scanner.close();
     }
 
     private static void NotOrtalamasi() {
@@ -52,5 +54,7 @@ public class Main {
         String sonuc = (ort > 60) ? "Geçti" : "Kaldı";
         System.out.println("Ortalama " + ort + " \'dır");
         System.out.println("Sonuc : " + sonuc );
+
+        scanner.close();
     }
 }
