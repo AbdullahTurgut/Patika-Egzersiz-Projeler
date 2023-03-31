@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("Hello");
+    }
+
+    private static void TutarHesap() {
         // Egzersiz : Java ile kullanıcıdan alınan para değerinin KDV'li fiyatını
         // ve KDV tutarını hesaplayıp ekrana bastıran programı yazın.
         Scanner scanner = new Scanner(System.in);
@@ -23,7 +27,6 @@ public class Main {
         System.out.println("KDV oranı: " + kdvOran);
         System.out.println("KDV tutarı: " + kdvTutar);
         System.out.println("KDV'li tutarı: " + kdvliTutar);
-
     }
 
     private static void NotOrtalamasi() {
