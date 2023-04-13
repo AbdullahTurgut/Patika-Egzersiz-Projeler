@@ -3,8 +3,11 @@ package Functions;
 import java.util.Scanner;
 
 public class RecursiveExponentiation {
+    // Java dilinde, taban
+    // ve üs değerleri kullanıcıdan alınan üs alma işlemini
+    // "Recursive" metot kullanarak yapan programı yazınız.
     static int Exponentiation(int base, int up) {
-//        int result = 1;
+
         if (up == 0) {
             return 1;
         }
