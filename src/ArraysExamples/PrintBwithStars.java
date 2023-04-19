@@ -1,6 +1,6 @@
 package ArraysExamples;
 
-public class PrintAwithStars {
+public class PrintBwithStars {
     public static void main(String[] args) {
         // Çok boyutlu diziler kullanılarak
         // "yıldızlar" ile ekrana "B" harfi yazan program
